@@ -1,0 +1,1316 @@
+/*
+ * Orchard
+ * 
+ * main green: #6b8f2d;
+ * dark green: #3b4f19;
+ * light green: #acdb5b;
+ */
+ 
+body.orchard {
+  background: #fff;
+}
+body.orchard a {
+  color: #6b8f2d;
+}
+body.orchard #wikicontent a:hover {
+  color: #6b8f2d;
+  text-decoration: underline;
+}
+section#wikicontent div.container {
+  padding-bottom: 20px;
+  min-height: 25em;
+}
+
+/* 
+ * ORCHARD COLOR SKIN 
+ */
+
+/* TextColors  */
+.colorskin-orchard #nav a:hover, .colorskin-orchard #nav li:hover > a, .colorskin-orchard #nav li.current > a, .colorskin-orchard #nav li.active > a, .colorskin-orchard #nav ul li a:hover, .colorskin-orchard #nav li.current ul li a:hover, .colorskin-orchard .nav-wrap2 #nav ul li a:hover, .colorskin-orchard .nav-wrap2.darknavi #nav ul li a:hover, .colorskin-orchard #nav ul li.current > a, .colorskin-orchard #nav ul li:hover > a, .colorskin-orchard nav.primary .portfolioFilters a.selected, .colorskin-orchard nav.primary .portfolioFilters a:hover, .colorskin-orchard nav.primary ul li a:active, .colorskin-orchard .colorf , .colorskin-orchard .callout i, .colorskin-orchard a.magicmore, .colorskin-orchard .icon-box i, .colorskin-orchard .icon-box1 i, .colorskin-orchard .icon-box3:hover i, .colorskin-orchard .icon-box5 i, .colorskin-orchard .icon-box8 i, .colorskin-orchard .icon-box9 i, .colorskin-orchard .icon-box10 i, .colorskin-orchard .icon-box11 i, .colorskin-orchard .zoomex2 a:hover i, .colorskin-orchard .testimonials-slider-w .testimonial-content h4 q:before, .colorskin-orchard .testimonials-slider-w .testimonial-content h4 q:after {color: #6b8f2d}
+
+/* Backgrounds */
+.colorskin-orchard .icon-box1:hover i, .colorskin-orchard .icon-box6 i, .colorskin-orchard .icon-box4:hover i, .colorskin-orchard .colorb, .colorskin-orchard .footer-in .contact-inf button, .colorskin-orchard #footer .side-list li:hover img, .colorskin-orchard .icon-box1:hover i, .colorskin-orchard .side-list li:hover img,
+.colorskin-orchard #header.sm-rgt-mn #menu-icon span.mn-ext1, 
+.colorskin-orchard #header.sm-rgt-mn #menu-icon span.mn-ext2, 
+.colorskin-orchard #header.sm-rgt-mn #menu-icon span.mn-ext3 {background-color: #3b4f19}
+
+/* BorderColors */
+.colorskin-orchard nav.primary .portfolioFilters a.selected, .colorskin-orchard nav.primary ul li a:active, .colorskin-orchard .our-team-ca:hover figure img, .colorskin-orchard .footer-in h5.subtitle:after, .colorskin-orchard .our-team:hover figure, .colorskin-orchard a.magicmore:after, .colorskin-orchard .icon-box5:hover i, .colorskin-orchard .zoomex2 a:hover i, .colorskin-orchard .max-title2:after, .colorskin-orchard .max-title4:after, .colorskin-orchard .max-title5:after, .colorskin-orchard .sidebar h4.subtitle:after, .colorskin-orchard h6.h-sub-content, .colorskin-orchard .icon-box1:hover i, .colorskin-orchard .icon-box4:hover i {border-color:#6b8f2d}
+
+/* PortfolioItemBg */
+.colorskin-orchard .zoomex2 {background-color: rgba(69,171,72,.92);}
+
+
+
+/*
+ * MOINMOIN ELEMENTS
+ */
+ 
+.orchard #wikicontent div.note {
+  color: #3b4f19;
+  background-color: #acdb5b;
+  border-color: #acdb5b;
+}
+.orchard #wikicontent table {
+}
+.orchard #wikicontent td {
+  vertical-align: top;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+.orchard #wikicontent table {
+    /* .table */
+    margin-bottom: 20px;
+}
+.orchard #wikicontent table > thead > tr > th,
+.orchard #wikicontent table > tbody > tr > th,
+.orchard #wikicontent table > tfoot > tr > th,
+.orchard #wikicontent table > thead > tr > td,
+.orchard #wikicontent table > tbody > tr > td,
+.orchard #wikicontent table > tfoot > tr > td {
+    /* .table > ... */
+    line-height: 1.42857143;
+    vertical-align: top;
+    /* .table-condensed > ... */
+    padding: 5px;
+    /* .table-bordered > ... */
+    border: 1px solid #ddd;
+}
+.orchard #wikicontent table > thead > tr > th {
+    /* .table > ... */
+    vertical-align: bottom;
+}
+.orchard #wikicontent table > thead > tr > th,
+.orchard #wikicontent table > thead > tr > td {
+    /* .table-bordered > ... */
+    border-bottom-width: 2px;
+}
+.orchard #wikicontent table > tbody + tbody {
+    /* .table > ... */
+    border-top: 2px solid #ddd;
+}
+.orchard #wikicontent .userpref table, 
+.orchard #wikicontent .userpref td {
+	border: none;
+}
+
+/*
+ * BOOTSTRAP ELEMENTS
+ */ 
+
+.orchard .button,
+.orchard #wikicontent .button,
+.orchard #wikicontent button,
+.orchard #wikicontent input[type="submit"],
+.orchard #wikicontent input[type="reset"],
+.orchard #wikicontent input[type="button"] {
+  background: #759C31;
+  border-radius: 4px;
+
+}
+
+.orchard .button:hover,
+.orchard #wikicontent .button:hover,
+.orchard #wikicontent button:hover, 
+.orchard #wikicontent input[type="submit"]:hover,
+.orchard #wikicontent input[type="reset"]:hover,
+.orchard #wikicontent input[type="button"]:hover {
+  background: #acdb5b;
+}
+
+.orchard .alert {
+  background:url(../img/alert-notice-ico.png) no-repeat;
+  background-position: 9px 50%;
+  background-color: #fcf8e3;
+}
+.orchard .alert-success {
+  background:url(../img/alert-success-ico.png) no-repeat;
+  background-position: 8px 50%;
+  background-color: #e0f0bd;
+}
+.orchard .alert-danger,
+.orchard .alert-error {
+  background:url(../img/alert-error-ico.png) no-repeat;
+  background-position: 9px 50%;
+  background-color: #fce6e9;
+}
+.orchard .alert-info {
+  background:url(../img/alert-info-ico.png) no-repeat;
+  background-position: 9px 50%;
+  background-color: #d9edf7;
+  border-color: #98cdd8;
+}
+.orchard .alert > p {
+  margin-bottom: 0;
+}
+
+/* 
+ * NAVIGATION 
+ */
+
+
+section#wikiheader div.locationinfo > div {
+  padding-left: 0;
+  padding-right: 0;
+}
+section#wikiheader div.locationinfo > div.lastupdate {
+  text-align: right;
+  color: #bbb;
+}
+@media only screen and (max-width: 959px) {
+  section#wikiheader div.locationinfo > div.lastupdate {
+    text-align: left;
+  }
+}
+section#wikiheader div.locationinfo > div.lastupdate a {
+  color: #888;
+}
+section#wikiheader {
+  padding-bottom: 10px;
+}
+.orchard ul#nav li.edit-disabled,
+.orchard ul#nav li.edit-disabled:hover,
+.orchard ul#nav li.edit-disabled a,
+.orchard ul#nav li.edit-disabled a:hover {
+  color: #bbb;
+/*  display: none; */
+}
+ul#pagelocation:before {
+  content: "Location: ";
+  padding-right: 5px;
+  color: #bbb;
+}
+ul#pagelocation {
+  list-style: none;
+  margin: 0px;
+}
+ul#pagelocation > li {
+  display: inline-block;
+  margin-bottom: 0;
+}
+ul#pagelocation > li + li:before {
+  content: "/\00a0";
+  padding: 0 5px;
+  color: #bbb;
+}
+ul#pagelocation > .active {
+  color: #666;
+}
+ul#pagelocation > li > a {
+  color: #888;
+}
+ul#pagelocation > li > a:hover {
+  color: #3b4f19;
+}
+ul#pagelocation > li > a.nonexistent:hover {
+  color: #888;
+}
+
+
+
+/*
+ * FOOTER
+ */
+ 
+section.cooperation div.partnerlogos img {
+  height: 50px;
+}
+section.cooperation div.partnerlogos span#orchard-collab {
+  padding-right: 10px;
+}
+#footer img#logo-oxford-bottom {
+  max-height: 90px;
+}
+
+@media only screen and (max-width: 959px) {
+  .orchard .cooperation div.fix-btn-mrg,
+  .orchard .cooperation div.partnerlogos {
+    text-align: center;
+  }
+  .orchard .cooperation div.partnerlogos {
+    padding-bottom: 20px;
+  }
+}
+
+/*
+ * implicit glyphicons
+ */
+
+.orchard ul#nav > li > ul > li {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.orchard ul#nav > li > ul > li > a {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.orchard ul#nav > li > ul.mega {
+  padding-bottom: 1em;
+}
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url(../fonts/glyphicons-halflings-regular.eot);
+    src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(../fonts/glyphicons-halflings-regular.woff) format('woff'), url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
+}
+
+*[class^="menu-"]:before,
+*[class^="menu-"]:after {
+    font-family: 'Glyphicons Halflings' !important;
+    font-style: normal;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+*[class^="menu-nav-"]:before,
+*[class^="menu-dd-"]:before {
+    float: right;
+    margin-top: -1px;
+    margin-left: 4px;
+}
+*[class^="menu-nav-"]:before {
+    font-size: smaller;
+    margin-left: 5px;
+}
+*[class^="menu-dd-"]:after {
+    content: "";
+    line-height: 1;
+/*    padding-left: 1em; */
+    margin-left: 5px;
+}
+*[class^="menu-btn-"]:before {
+    line-height: 1;
+    position: relative;
+    top: 1px;
+}
+@media screen and (min-width: 768px) {
+    *[class^="menu-nav-"] {
+        display: inline-table !important;
+    }
+}
+/* user menu dropdown elements */
+.menu-dd-userhome:before {
+    content: "\e008"; /* .glyphicon-user */
+}
+.menu-dd-userprefs:before {
+    content: "\e019"; /* .glyphicon-cog */
+}
+.menu-dd-logout:before {
+    content: "\e163"; /* .glyphicon-logout */
+}
+/* main menu dropdown elems */
+.menu-dd-raw:before {
+    content: "\e022"; /* .glyphicon-file */
+}
+.menu-dd-print:before {
+    content: "\e045"; /* .glyphicon-print */
+}
+.menu-dd-refresh:before {
+    content: "\e030"; /* .glyphicon-repeat */
+}
+.menu-dd-SpellCheck:before {
+    content: "\e013"; /* .glyphicon-ok */
+}
+.menu-dd-RenamePage:before {
+    content: "\e041"; /* .glyphicon-tag */
+}
+.menu-dd-CopyPage:before {
+    content: "\e022"; /* .glyphicon-file */
+}
+.menu-dd-DeletePage:before {
+    content: "\e020"; /* .glyphicon-trash */
+}
+.menu-dd-LikePages:before {
+    content: "\2601"; /* .glyphicon-cloud */
+}
+.menu-dd-LocalSiteMap:before {
+    content: "\e056"; /* .glyphicon-list */
+}
+.menu-dd-MyPages:before {
+    content: "\e044"; /* .glyphicon-bookmark */
+}
+.menu-dd-SubscribeUser:before {
+    content: "\2709"; /* .glyphicon-envelope */
+}
+.menu-dd-Despam:before {
+    content: "\e104"; /* .glyphicon-fire */
+}
+.menu-dd-revert:before {
+    content: "\e070"; /* .glyphicon-fast-backward */
+}
+.menu-dd-PackagePages:before {
+    content: "\e181"; /* .glyphicon-compressed */
+}
+.menu-dd-RenderAsDocbook:before {
+    content: "\e043"; /* .glyphicon-book */
+}
+.menu-dd-SyncPages:before {
+    content: "\e031"; /* .glyphicon-refresh */
+}
+.menu-dd-AttachFile:before {
+    content: "\e142"; /* .glyphicon-paperclip */
+}
+.menu-dd-RecentChanges:before {
+    content: "\e023"; /* .glyphicon-time */
+}
+.menu-dd-FindPage:before {
+    content: "\e003"; /* .glyphicon-search */
+}
+.menu-dd-HelpContents:before {
+    content: "\e085"; /* .glyphicon-question-sign */
+}
+.menu-dd-HelpOnFormatting:before {
+    content: "\e085"; /* .glyphicon-question-sign */
+}
+.menu-dd-HelpOnMoinWikiSyntax:before {
+    content: "\e085"; /* .glyphicon-question-sign */
+}
+.menu-dd-TitleIndex:before {
+    content: "\e056"; /* .glyphicon-list */
+}
+.menu-dd-WordIndex:before {
+    content: "\e056"; /* .glyphicon-list */
+}
+.menu-dd-FrontPage:before {
+    content: "\e021"; /* .glyphicon-home */
+}
+.menu-dd-SideBar:before {
+    content: "\e012"; /* .glyphicon-th-list */
+}
+.menu-dd-editSideBar:before {
+    content: "\270f"; /* .glyphicon-pencil */
+}
+.menu-dd-quicklink:before {
+    content: "\e146"; /* .glyphicon-pushpin */
+}
+.menu-dd-subscribe:before {
+    content: "\2709"; /* .glyphicon-envelope */
+}
+.menu-dd-info:before {
+    content: "\e086"; /* .glyphicon-info-sign */
+}
+.menu-dd-Load:before {
+    content: "\e198"; /* .glyphicon-cloud-upload */
+}
+.menu-dd-Save:before {
+    content: "\e197"; /* .glyphicon-cloud-download */
+}
+/* navbar links */
+.menu-nav-login:before {
+    content: "\e161"; /* .glyphicon-login */
+}
+.menu-nav-edit:before {
+    content: "\270f"; /* .glyphicon-pencil */
+}
+.menu-nav-menu:before {
+}
+.menu-nav-user:before {
+}
+.menu-nav-comment:before {
+    content: "\e105";  /* .glyphicon-eye-open */
+}
+.menu-nav-comment.on:before {
+    content: "\e106";  /* .glyphicon-eye-close */
+}
+/* navbar buttons */
+.menu-btn-sidebar-toggler:before {
+    content: "\e080"; /* .glyphicon-chevron-right */
+}
+.menu-btn-sidebar-toggler.on:before {
+    content: "\e079"; /* .glyphicon-chevron-left */
+}
+
+
+/*
+ * PRINT
+ */
+ 
+@media print {
+  a[href]:after {
+    content: " (" attr(href) ") "; /* Show URL's of links in printed web pages */
+  }
+}
+
+
+/* ========================================================= 
+ * CSS for memodump theme for MoinMoin 1.9.x
+ * Copyright 2014 dossist.
+ * Based on common.css and screen.css from modernized theme, and css from Bootstrap.
+ */
+
+/*=========================================================
+   general margins
+===========================================================*/
+
+#wikicontent dd {
+	margin-left: 20px;
+}
+#sidebar li p,
+#wikicontent li p,
+#wikicontent dd p,
+#wikicontent td p {
+    padding: 0;
+    margin: 0;
+}
+
+#wikicontent p img {
+    margin: 0;
+}
+
+/*=========================================================
+   alert styles
+===========================================================*/
+
+.alert table,
+.alert tbody,
+.alert tr,
+.alert td {
+	border: none;
+}
+.alert table {
+	margin-bottom: 0;
+}
+/* fix for RenamePage and DeletePage */
+.dialog {
+	overflow: hidden;
+}
+.alert td.label {
+	color: inherit;
+	text-align: inherit;
+	vertical-align: middle;
+	display: table-cell;
+}
+.alert td.label * {
+	margin: 0;
+}
+
+/*=========================================================
+   text decorations etc
+===========================================================*/
+
+/* custom rules ----- to ---------- */
+.hr1 {border-top-width: 2pt;}
+.hr2 {border-top-width: 3pt;}
+.hr3 {border-top-width: 4pt;}
+.hr4 {border-top-width: 5pt;}
+.hr5 {border-top-width: 6pt;}
+.hr6 {border-top-width: 7pt;}
+/* text decorations */
+.u {
+	text-decoration: underline;
+}
+.strike {
+	text-decoration: line-through;
+}
+tt:not(:empty) { /* not to mess up empty backticks used in order to prevent autolinks */
+    /* from Bootstrap <code> */
+    font-family: monospace, monospace;
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
+/* used in SpellCheck results */
+strong.highlight {
+    background-color: #cBe6fd;
+    padding: 1pt;
+}
+/* colored texts (low css priority) */
+.warning {
+    color: #a94442; /* Bootstrap .alert-danger */
+}
+.error {
+    color: #a94442;
+}
+
+/*=========================================================
+   link anchors
+===========================================================*/
+
+#wikicontent a.nonexistent:visited,
+#wikicontent a.nonexistent,
+#wikicontent a.badinterwiki:visited,
+#wikicontent a.badinterwiki {
+	color: #999;
+}
+
+/* link type icons */
+#wikicontent a[class]:before,
+#wikicontent a[class]:after {
+    font-family: 'Glyphicons Halflings' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 83%;
+    margin: 0 0.25em;
+    line-height: 1;
+    position: relative;
+    top: 1px;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* icons after links */
+#wikicontent a.www:after,
+#wikicontent a.http:after,
+#wikicontent a.https:after {
+    content: "\e164"; /* .glyphicon-new-window */
+}
+#wikicontent a.badinterwiki:after,
+#wikicontent a.interwiki:after {
+    content: "\e144"; /* .glyphicon-link */
+}
+
+/* icons before links */
+#wikicontent a.file:before {
+    content: "\e022"; /* .glyphicon-file */
+}
+#wikicontent a.ftp:before {
+    content: "\e178"; /* .glyphicon-transfer */
+}
+#wikicontent a.nntp:before,
+#wikicontent a.news:before {
+    content: "\e028"; /* .glyphicon-inbox */
+}
+#wikicontent a.telnet:before,
+#wikicontent a.ssh:before {
+    content: "\e162"; /* .glyphicon-flash */
+}
+#wikicontent a.irc:before,
+#wikicontent a.ircs:before {
+    content: "\e111"; /* .glyphicon-comment */
+}
+#wikicontent a.mailto:before {
+    content: "\2709"; /* .glyphicon-envelope */
+}
+#wikicontent a.attachment:before {
+    content: "\e142"; /* .glyphicon-paperclip */
+}
+#wikicontent a.action:before {
+    content: "\e019"; /* .glyphicon-cog */
+}
+
+/* remove link icons on links with embedded images inside etc */
+#wikicontent a[title^="{{"][title$="}}"]:before,
+#wikicontent a[title^="{{"][title$="}}"]:after {
+    content: none;
+}
+
+/*=========================================================
+   div styles
+===========================================================*/
+
+/* color boxes */
+.comment,
+.red, .green, .blue, .yellow, .orange,
+.solid, .dashed, .dotted {
+	/* taken from Bootstrap .well, but background-color */
+    min-height: 20px;
+    padding: 19px 0;
+    margin-bottom: 20px;
+    border: 0;
+    border-color: #e3e3e3;
+}
+.comment > *:last-child,
+.red > *:last-child, .green > *:last-child, .blue > *:last-child,
+.yellow > *:last-child, .orange > *:last-child,
+.solid > *:last-child, .dashed > *:last-child, .dotted > *:last-child {
+	margin-bottom: 0;
+}
+.comment > div:last-child > table,
+.red > div:last-child > table, .green > div:last-child > table, .blue > div:last-child > table,
+.yellow > div:last-child > table, .orange > div:last-child > table,
+.solid > div:last-child > table, .dashed > div:last-child > table, .dotted > div:last-child > table {
+/* MoinMoin wraps table with div, thus we have to cancel table margin inside the last div */
+    margin-bottom: 0;
+}
+/* box colors */
+.comment { /* .comment must be on top of other color box classes */
+	color: #999;
+	background-color: #f0f0ff;
+}
+.red { /* Bootstrap .alert-danger */
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.green { /* Bootstrap .alert-success */
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+.blue { /* Bootstrap .alert-info */
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+.yellow { /* Bootstrap .alert-warning */
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+.orange {
+	background-color: #fdf2e3;
+	border-color: #fae2c4;
+}
+/* box borders */
+.solid, .dashed, .dotted {
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+	border-width: 2px;
+	border-color: #777;
+}
+.solid {
+	border-style: solid;
+}
+.dashed {
+	border-style: dashed;
+}
+.dotted {
+	border-style: dotted;
+}
+/* text align */
+.left {
+	text-align: left;
+}
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+.justify {
+	text-align: justify;
+}
+
+/*=========================================================
+   TableOfContents
+===========================================================*/
+
+#pagebox div.table-of-contents {
+    font-size: 88%;
+    text-align: left;
+    margin: 0.5em 0 0.5em 1em;
+    max-width: 50%;
+    display: table;
+    /* Bootstrap .well and .well-sm */
+    min-height: 20px;
+    padding: 9px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+#pagebox div.table-of-contents ol {
+    margin: 0;
+    padding: 0 0 0 2em;
+}
+#pagebox div.table-of-contents ul {
+    margin: 0;
+    list-style: none;
+}
+#pagebox div.table-of-contents li {
+    margin: 0;
+    padding: 0;
+}
+#pagebox p.table-of-contents-heading {
+    font-weight: bold;
+    padding: 0;
+    margin: 0 0 0.5em 0;
+    letter-spacing: 0.075em;
+}
+
+/*=========================================================
+   MonthCalendar (untouched)
+===========================================================*/
+
+/* days without and with pages linked to them */
+a.cal-emptyday {
+    color: #777777;
+    text-align: center;
+}
+a.cal-usedday {
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+/* general stuff: workdays, weekend, today */
+td.cal-workday {
+    background-color: #DDDDFF;
+    text-align: center;
+}
+td.cal-weekend {
+    background-color: #FFDDDD;
+    text-align: center;
+}
+td.cal-today {
+    background-color: #CCFFCC;
+    border-style: solid;
+    border-width: 2pt;
+    text-align: center;
+}
+/* invalid places on the monthly calendar sheet */
+td.cal-invalidday {
+    background-color: #CCCCCC;
+}
+/* links to prev/next month/year */
+a.cal-link {
+    color: #000000;
+    text-decoration: none;
+}
+th.cal-header {
+    background-color: #DDBBFF;
+    text-align: center;
+}
+
+/* for MonthCalendar mouseover info boxes */
+table.tip {
+    color: black;
+    background-color: #FF8888;
+    font-size: small;
+    font-weight: normal;
+    border-style: solid;
+    border-width: 1px;
+}
+th.tip {
+    background-color: #FF4444;
+    font-weight: bold;
+    text-align: center;
+}
+td.tip {
+    text-align: left;
+}
+*[dir="rtl"] td.tip {
+    text-align: right;
+}
+
+/*=========================================================
+   textcha
+===========================================================*/
+
+#textcha {
+}
+#textcha-question {
+	/* Bootstrap .has-error .control-label */
+    color: #a94442;
+}
+#pagebox #textcha-answer { /* exclusive for things under #pagebox for cascading priority */
+	display: block;
+	width: 100%;
+	/* Bootstrap .has-error .form-control */
+    border-color: #a94442;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+#pagebox #textcha-answer:focus {
+	/* Bootstrap .has-error .form-control:focus; */
+    border-color: #843534;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483;
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483;
+}
+
+/*=========================================================
+   codearea
+===========================================================*/
+
+div.codemsg {
+    margin: 0.5em 0;
+    padding: 0.5em;
+    padding-left: 2.5em;
+    background: none;
+    border: 1pt solid #faebcc;
+    background-color: #fcf8e3;
+    background-image:url('../img/alert.png');
+    background-repeat:no-repeat;
+    background-position: 0.5em 0.5em;
+    color: #8a6d3b;
+    border-radius: 4px;
+}
+div.codearea { /* the div makes the border */
+    margin: 0.5em 0;
+    padding: 0;
+    border: 1pt solid #ccc;
+    background-color: #f5f5f5;
+    color: black;
+    border-radius: 4px;
+}
+div.codearea pre { /* the pre has no border and is inside the div */
+    margin: 0;
+    padding: 10pt;
+    border: none;
+}
+div.codearea a:not([class]):hover { /* we don't like underlines when hovering line numbers */
+	text-decoration: none;
+}
+a.codenumbers { /* format of the line number toggler */
+    margin: 0 10pt;
+    font-size: 0.85em;
+    color: gray;
+}
+@media print {
+	a.codenumbers {
+		display: none;
+	}
+}
+/* format of certain syntax spans */
+div.codearea pre span.LineNumber {color: gray;}
+div.codearea pre span.ID         {color: #000000;}
+div.codearea pre span.Operator   {color: #0000c0;}
+div.codearea pre span.Char       {color: #004080;}
+div.codearea pre span.Comment    {color: #008000;}
+div.codearea pre span.Number     {color: #0080c0;}
+div.codearea pre span.String     {color: #004080;}
+div.codearea pre span.SPChar     {color: #0000c0;}
+div.codearea pre span.ResWord    {color: #a00000;}
+div.codearea pre span.ConsWord   {color: #008080; font-weight: bold;}
+div.codearea pre span.Error      {color: #ff8080; border: solid 1.5pt #ff0000;}
+div.codearea pre span.ResWord2   {color: #0080ff; font-weight: bold;}
+div.codearea pre span.Special    {color: #0000ff;}
+div.codearea pre span.Preprc     {color: #803999;}
+/* for diff parser */
+div.codearea pre span.DiffAdded   {color: #4876ff;}
+div.codearea pre span.DiffRemoved {color: #ff0000;}
+div.codearea pre span.DiffChanged {color: #ff7f50;}
+div.codearea pre span.DiffSeparator {color: #228b22; font-weight: bold}
+
+#wikicontent pre {
+  line-height: 1.5;
+  white-space: pre-line;
+  border-radius: 4px;
+  width: auto;
+  font-size: 90%;
+}
+
+#wikicontent #content > pre {
+  margin-bottom: 20px;
+}
+/*=========================================================
+   diff
+===========================================================*/
+
+.diff {
+	color: #555;
+    width: 100%;
+    table-layout: fixed;
+    margin: 10px 0;
+}
+.diff + .diff {
+	margin: 10px 0 30px 0;
+	background-color: #f5f5f5;
+	border-collapse: separate;
+	border-radius: 4px;
+	border: 1px solid #ddd;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+.diff td {
+	border: none;
+}
+.diff input {
+	display: inline;
+}
+.diff-header {
+	color: #555;
+	font-weight: bold;
+}
+div.diff-info-header {
+    background-color: #ddd;
+    border-radius: 4px;
+    width: 100%;
+    padding: 0.25em 0.5em;
+    text-align: center;
+}
+tr.diff-title {
+    background-color: #fff;
+}
+.diff-title td {
+	background-color: transparent;
+	border-top: 5px solid #eee;
+}
+.diff-title td a {
+    color: #555;
+    font-weight: bold;
+}
+.diff-title td a:hover,
+.diff-title td a:focus {
+	text-decoration: none;
+}
+.diff-added, .diff-removed {
+    vertical-align: top;
+    width: 50%;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: courier, monospace;
+    line-height: 1.2;
+}
+.diff-added {
+}
+.diff-removed {
+}
+.diff-added span {
+    color: #008b02;
+    background-color: #ccffcc;
+}
+.diff-removed span {
+	color: #ac0400;
+    background-color: #ffcccc;
+}
+td.diff-info {
+    vertical-align: top;
+}
+div.diff-info {
+    white-space: nowrap;
+}
+div.diff-info-rev-comment span.diff-info-value {
+    white-space: normal;
+}
+td.diff-same {
+    text-align: center;
+    border: 0;
+}
+
+/*=========================================================
+   search
+===========================================================*/
+
+/* FindPage */
+.advancedsearch {
+    border: 1px solid #e3e3e3;
+    border-collapse: separate;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+.advancedsearch td {
+    vertical-align: top;
+    border: none;
+}
+.advancedsearch td.searchfor {
+    font-weight: bold;
+}
+.advancedsearch td.submit {
+    border-top: 1px solid #e3e3e3;
+    background-color: #fff;
+    text-align: right;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.advancedsearch input {
+}
+.advancedsearch input[disabled] {
+}
+.advancedsearch option,
+.advancedsearch select {
+}
+
+/* search results */
+.searchresults dt {
+    margin-top: 1em;
+    font-weight: normal;
+}
+.searchresults dd, .searchresults p {
+    font-size: 0.85em;
+}
+.searchresults .searchhitinfobar {
+    color: #008000;
+    margin-left: 15px;
+    margin-top: 0;
+}
+p.searchstats {
+	padding: 0px 5px;
+	border-radius: 2px;
+	border: 1px solid transparent;
+    color: #3c763d;
+    background-color: #dff0d8;
+}
+p.searchhint {
+	/* Bootstrap .alert */
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    /* .alert-info */
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+p.searchhint a {
+	font-weight: bold;
+    color: #245269;
+}
+/* pagination area at the bottom of search result, styles taken from Bootstrap */
+.searchpages {
+	color: #fff;
+    background-color: #428bca;
+	border: 1px solid #428bca;
+    border-radius: 5px;
+    border-collapse: separate;
+    margin: 20px auto;
+}
+.searchpages tbody {
+	border-radius: 4px; /* to prevent background from slightly oozing off corners */
+}
+.searchpages tr, .searchpages td {
+    border: none;
+    border-radius: inherit;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+.searchpages td {
+	width: 30px;
+}
+.searchpages td:first-child,
+.searchpages td:first-child a,
+.searchpages td:empty + td {
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+}
+.searchpages td:last-child,
+.searchpages td:last-child a {
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+.searchpages td:empty {
+	display: none;
+}
+.searchpages td {
+	border-radius: 0;
+}
+.searchpages td a, .searchpages td a:link {
+	display: block;
+    color: #428bca;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px 0px;
+	width: 32px;
+	margin: -1px;
+}
+.searchpages td a:hover,
+.searchpages td a:focus {
+    color: #2a6496;
+    background-color: #eee;
+    text-decoration: none;
+}
+
+/*=========================================================
+   admonitions
+===========================================================*/
+
+#wikicontent div.caution,
+#wikicontent div.important,
+#wikicontent div.note,
+#wikicontent div.tip,
+#wikicontent div.warning {
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+    padding: 15px;
+    padding-left: 64px;
+    min-height: 64px;
+    /* Bootstrap .alert */
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+#wikicontent div.caution a,
+#wikicontent div.important a,
+#wikicontent div.note a,
+#wikicontent div.tip a,
+#wikicontent div.warning a {
+	/* Bootstrap .alert .alert-link */
+    font-weight: bold;
+}
+#wikicontent div.caution > p,
+#wikicontent div.important > p,
+#wikicontent div.note > p,
+#wikicontent div.tip > p,
+#wikicontent div.warning > p,
+#wikicontent div.caution > ul,
+#wikicontent div.important > ul,
+#wikicontent div.note > ul,
+#wikicontent div.tip > ul,
+#wikicontent div.warning > ul {
+	/* Bootstrap .alert > p */
+    margin-bottom: 0;
+}
+#wikicontent div.caution > p + p,
+#wikicontent div.important > p + p,
+#wikicontent div.note > p + p,
+#wikicontent div.tip > p + p,
+#wikicontent div.warning > p + p {
+	/* Bootstrap .alert > p + p */
+    margin-top: 5px;
+}
+#wikicontent div.tip       { background-image: url("../img/admon-tip.png"); }
+#wikicontent div.note      { background-image: url("../img/admon-note.png"); }
+#wikicontent div.important { background-image: url("../img/admon-important.png"); }
+#wikicontent div.caution   { background-image: url("../img/admon-caution.png"); }
+#wikicontent div.warning   { background-image: url("../img/admon-warning.png"); }
+
+#wikicontent div.tip,
+#wikicontent div.note { /* Bootstrap .alert-info */
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+#wikicontent div.tip hr,
+#wikicontent div.note hr {
+    border-top-color: #a6e1ec;
+}
+#wikicontent div.tip a,
+#wikicontent div.note a {
+    color: #245269;
+}
+#wikicontent div.caution,
+#wikicontent div.important { /* Bootstrap .alert-warning */
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+#wikicontent div.caution hr,
+#wikicontent div.important hr {
+    border-top-color: #f7e1b5;
+}
+#wikicontent div.caution a,
+#wikicontent div.important a {
+    color: #66512c;
+}
+#wikicontent div.warning { /* Bootstrap .alert-danger */
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+#wikicontent div.warning hr {
+    border-top-color: #e4b9c0;
+}
+#wikicontent div.warning a {
+    color: #843534;
+}
+
+/*=========================================================
+   edit page
+===========================================================*/
+
+#editor-textarea, #editor-help {
+    font-family: monospace;
+    width: 100%;
+    padding: 3px;
+    margin: 0.5em 0;
+}
+#editor-help {
+    font-size: small;
+    /* Bootstrap .well */
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+#preview, #previewbelow {
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    padding: 3px;
+    width: 100%;
+    background: url(../img/draft.png);
+    margin: 20px 0;
+}
+
+/*=========================================================
+   Recent changes
+===========================================================*/
+
+/* rss icon */
+.rcrss {
+    float: right;
+    position: relative;
+    margin: 4px 7px 4px 14px;
+}
+*[div="rtl"] .rcrss {
+    float: left;
+}
+.recentchanges[dir="rtl"] .rcrss {
+    float: left;
+}
+/* recentchanges navigation */
+.recentchanges p {
+    border-radius: 4px;
+    background-color: #eee;
+    padding: 5px;
+    min-height: 30px;
+}
+.recentchanges p:empty {
+	display: none;
+}
+
+/* recentchanges area */
+.recentchanges table {
+    clear: both;
+    border-collapse: separate;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+.recentchanges td {
+    border: none;
+    vertical-align: top;
+}
+.recentchanges .rcdaybreak td {
+    background: #eee;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+.recentchanges .rcdaybreak:first-child td {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+.rcdaybreak td a {
+    font-size: 0.92em;
+}
+.rcicon1, .rcicon2 {
+    text-align: center;
+}
+.rcpagelink {
+    width: 33%;
+}
+.rctime {
+    font-size: 0.92em;
+    white-space: nowrap;
+}
+.rceditor {
+    font-size: 0.92em;
+    white-space: nowrap;
+}
+.rccomment {
+    font-size: 0.92em;
+    width: 50%;
+    color: gray;
+}
+.recentchanges tr:first-child td {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top: none;
+}
+.recentchanges tr:last-child td {
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+/*=========================================================
+   misc actions
+===========================================================*/
+
+/* RandomQuote */
+.orchard #wikicontent .condensed {
+	padding: 0;
+}
+.orchard #wikicontent .condensed * {
+	margin-top: 0;
+	margin-bottom: 0;
+}
