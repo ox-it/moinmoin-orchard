@@ -971,32 +971,28 @@ td.diff-same {
     border: 0;
 }
 
-/*=========================================================
-   search
-===========================================================*/
-
-/* FindPage */
+/* search ===========================================================*/
 .advancedsearch {
-    border: 1px solid #e3e3e3;
-    border-collapse: separate;
-    border-radius: 4px;
-    background-color: #f5f5f5;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
-            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+  border: 1px solid #e3e3e3;
+  border-collapse: separate;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
 }
 .advancedsearch td {
-    vertical-align: top;
-    border: none;
+  vertical-align: top;
+  border: none;
 }
 .advancedsearch td.searchfor {
-    font-weight: bold;
+  font-weight: bold;
 }
 .advancedsearch td.submit {
-    border-top: 1px solid #e3e3e3;
-    background-color: #fff;
-    text-align: right;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
+  border-top: 1px solid #e3e3e3;
+  background-color: #fff;
+  text-align: right;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 .advancedsearch input {
 }
@@ -1008,121 +1004,118 @@ td.diff-same {
 
 /* search results */
 .searchresults dt {
-    margin-top: 1em;
-    font-weight: normal;
+  margin-top: 1em;
+  font-weight: normal;
 }
 .searchresults dd, .searchresults p {
-    font-size: 0.85em;
+  font-size: 0.85em;
 }
 .searchresults .searchhitinfobar {
-    color: #008000;
-    margin-left: 15px;
-    margin-top: 0;
+  color: #bbb;
+  margin-left: 15px;
+  margin-top: 0;
 }
 p.searchstats {
-	padding: 0px 5px;
-	border-radius: 2px;
-	border: 1px solid transparent;
-    color: #3c763d;
-    background-color: #dff0d8;
+  padding: 0px 5px;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  color: #3c763d;
+  background-color: #dff0d8;
 }
 p.searchhint {
-	/* Bootstrap .alert */
-    padding: 15px;
-    margin-bottom: 20px;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    /* .alert-info */
-    color: #31708f;
-    background-color: #d9edf7;
-    border-color: #bce8f1;
+  /* Bootstrap .alert */
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  /* .alert-info */
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
 }
 p.searchhint a {
-	font-weight: bold;
-    color: #245269;
+  font-weight: bold;
+  color: #245269;
 }
 /* pagination area at the bottom of search result, styles taken from Bootstrap */
 .searchpages {
-	color: #fff;
-    background-color: #428bca;
-	border: 1px solid #428bca;
-    border-radius: 5px;
-    border-collapse: separate;
-    margin: 20px auto;
+  color: #fff;
+  background-color: #428bca;
+  border: 1px solid #428bca;
+  border-radius: 5px;
+  border-collapse: separate;
+  margin: 20px auto;
 }
 .searchpages tbody {
-	border-radius: 4px; /* to prevent background from slightly oozing off corners */
+  border-radius: 4px; /* to prevent background from slightly oozing off corners */
 }
 .searchpages tr, .searchpages td {
-    border: none;
-    border-radius: inherit;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    vertical-align: middle;
+  border: none;
+  border-radius: inherit;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  vertical-align: middle;
 }
 .searchpages td {
-	width: 30px;
+  width: 30px;
 }
 .searchpages td:first-child,
 .searchpages td:first-child a,
 .searchpages td:empty + td {
-    border-top-left-radius: inherit;
-    border-bottom-left-radius: inherit;
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
 }
 .searchpages td:last-child,
 .searchpages td:last-child a {
-    border-top-right-radius: inherit;
-    border-bottom-right-radius: inherit;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
 }
 .searchpages td:empty {
-	display: none;
+  display: none;
 }
 .searchpages td {
-	border-radius: 0;
+  border-radius: 0;
 }
 .searchpages td a, .searchpages td a:link {
-	display: block;
-    color: #428bca;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 5px 0px;
-	width: 32px;
-	margin: -1px;
+  display: block;
+  color: #428bca;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 5px 0px;
+  width: 32px;
+  margin: -1px;
 }
 .searchpages td a:hover,
 .searchpages td a:focus {
-    color: #2a6496;
-    background-color: #eee;
-    text-decoration: none;
+  color: #2a6496;
+  background-color: #eee;
+  text-decoration: none;
 }
 
-/*=========================================================
-   admonitions
-===========================================================*/
-
+/* admonitions  =========================================================== */
 #wikicontent div.caution,
 #wikicontent div.important,
 #wikicontent div.note,
 #wikicontent div.tip,
 #wikicontent div.warning {
-	background-repeat: no-repeat;
-	background-position: 8px 8px;
-    padding: 15px;
-    padding-left: 64px;
-    min-height: 64px;
-    /* Bootstrap .alert */
-    margin-bottom: 20px;
-    border: 1px solid transparent;
-    border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: 8px 8px;
+  padding: 15px;
+  padding-left: 64px;
+  min-height: 64px;
+  /* Bootstrap .alert */
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
 }
 #wikicontent div.caution a,
 #wikicontent div.important a,
 #wikicontent div.note a,
 #wikicontent div.tip a,
 #wikicontent div.warning a {
-	/* Bootstrap .alert .alert-link */
-    font-weight: bold;
+  /* Bootstrap .alert .alert-link */
+  font-weight: bold;
 }
 #wikicontent div.caution > p,
 #wikicontent div.important > p,
@@ -1134,16 +1127,16 @@ p.searchhint a {
 #wikicontent div.note > ul,
 #wikicontent div.tip > ul,
 #wikicontent div.warning > ul {
-	/* Bootstrap .alert > p */
-    margin-bottom: 0;
+  /* Bootstrap .alert > p */
+  margin-bottom: 0;
 }
 #wikicontent div.caution > p + p,
 #wikicontent div.important > p + p,
 #wikicontent div.note > p + p,
 #wikicontent div.tip > p + p,
 #wikicontent div.warning > p + p {
-	/* Bootstrap .alert > p + p */
-    margin-top: 5px;
+  /* Bootstrap .alert > p + p */
+  margin-top: 5px;
 }
 #wikicontent div.tip       { background-image: url("../img/admon-tip.png"); }
 #wikicontent div.note      { background-image: url("../img/admon-note.png"); }
@@ -1153,158 +1146,151 @@ p.searchhint a {
 
 #wikicontent div.tip,
 #wikicontent div.note { /* Bootstrap .alert-info */
-    color: #31708f;
-    background-color: #d9edf7;
-    border-color: #bce8f1;
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
 }
 #wikicontent div.tip hr,
 #wikicontent div.note hr {
-    border-top-color: #a6e1ec;
+  border-top-color: #a6e1ec;
 }
 #wikicontent div.tip a,
 #wikicontent div.note a {
-    color: #245269;
+  color: #245269;
 }
 #wikicontent div.caution,
 #wikicontent div.important { /* Bootstrap .alert-warning */
-    color: #8a6d3b;
-    background-color: #fcf8e3;
-    border-color: #faebcc;
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
 }
 #wikicontent div.caution hr,
 #wikicontent div.important hr {
-    border-top-color: #f7e1b5;
+  border-top-color: #f7e1b5;
 }
 #wikicontent div.caution a,
 #wikicontent div.important a {
-    color: #66512c;
+  color: #66512c;
 }
 #wikicontent div.warning { /* Bootstrap .alert-danger */
-    color: #a94442;
-    background-color: #f2dede;
-    border-color: #ebccd1;
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
 }
 #wikicontent div.warning hr {
-    border-top-color: #e4b9c0;
+  border-top-color: #e4b9c0;
 }
 #wikicontent div.warning a {
-    color: #843534;
+  color: #843534;
 }
 
-/*=========================================================
-   edit page
-===========================================================*/
-
+/* edit page =========================================================== */
 #editor-textarea, #editor-help {
-    font-family: monospace;
-    width: 100%;
-    padding: 3px;
-    margin: 0.5em 0;
+  font-family: monospace;
+  width: 100%;
+  padding: 3px;
+  margin: 0.5em 0;
 }
 #editor-help {
-    font-size: small;
-    /* Bootstrap .well */
-    padding: 19px;
-    margin-bottom: 20px;
-    background-color: #f5f5f5;
-    border: 1px solid #e3e3e3;
-    border-radius: 4px;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
-            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+  font-size: small;
+  /* Bootstrap .well */
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
 }
 #preview, #previewbelow {
-    border: 1px solid #bbb;
-    border-radius: 4px;
-    padding: 3px;
-    width: 100%;
-    background: url(../img/draft.png);
-    margin: 20px 0;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  padding: 3px;
+  width: 100%;
+  background: url(../img/draft.png);
+  margin: 20px 0;
 }
 
-/*=========================================================
-   Recent changes
-===========================================================*/
-
-/* rss icon */
+/* Recent changes =========================================================== */
 .rcrss {
-    float: right;
-    position: relative;
-    margin: 4px 7px 4px 14px;
+  float: right;
+  position: relative;
+  margin: 4px 7px 4px 14px;
 }
 *[div="rtl"] .rcrss {
-    float: left;
+  float: left;
 }
 .recentchanges[dir="rtl"] .rcrss {
-    float: left;
+  float: left;
 }
-/* recentchanges navigation */
 .recentchanges p {
-    border-radius: 4px;
-    background-color: #eee;
-    padding: 5px;
-    min-height: 30px;
+  border-radius: 4px;
+  background-color: #eee;
+  padding: 5px;
+  min-height: 30px;
 }
 .recentchanges p:empty {
-	display: none;
+  display: none;
 }
 
 /* recentchanges area */
 .recentchanges table {
-    clear: both;
-    border-collapse: separate;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
-            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+  clear: both;
+  border-collapse: separate;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
 }
 .recentchanges td {
-    border: none;
-    vertical-align: top;
+  border: none;
+  vertical-align: top;
+}
+.orchard #wikicontent #content td img {
+  max-width: inherit;
 }
 .recentchanges .rcdaybreak td {
-    background: #eee;
-    border: none;
-    border-top: 1px solid #ccc;
+  background: #eee;
+  border: none;
+  border-top: 1px solid #ccc;
 }
 .recentchanges .rcdaybreak:first-child td {
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
-            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
 }
 .rcdaybreak td a {
-    font-size: 0.92em;
+  font-size: 0.92em;
 }
 .rcicon1, .rcicon2 {
-    text-align: center;
+  text-align: center;
 }
 .rcpagelink {
-    width: 33%;
+  width: 33%;
 }
 .rctime {
-    font-size: 0.92em;
-    white-space: nowrap;
+  font-size: 0.92em;
+  white-space: nowrap;
 }
 .rceditor {
-    font-size: 0.92em;
-    white-space: nowrap;
+  font-size: 0.92em;
+  white-space: nowrap;
 }
 .rccomment {
-    font-size: 0.92em;
-    width: 50%;
-    color: gray;
+  font-size: 0.92em;
+  width: 50%;
+  color: gray;
 }
 .recentchanges tr:first-child td {
-    border-top-right-radius: 4px;
-    border-top-left-radius: 4px;
-    border-top: none;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-top: none;
 }
 .recentchanges tr:last-child td {
-    border-bottom-right-radius: 4px;
-    border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
 }
 
-/*=========================================================
-   misc actions
-===========================================================*/
+/* misc actions =========================================================== */
 
 /* RandomQuote */
 .orchard #wikicontent .condensed {
@@ -1313,4 +1299,10 @@ p.searchhint a {
 .orchard #wikicontent .condensed * {
 	margin-top: 0;
 	margin-bottom: 0;
+}
+.orchard #wikicontent #content div.condensed {
+  border-radius: 4px;
+}
+.orchard #wikicontent div#WikiTipOfTheDay\2e RandomQuote {
+  padding: 5px;
 }
