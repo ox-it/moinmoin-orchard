@@ -46,6 +46,10 @@ section#wikicontent div.container {
  * MOINMOIN ELEMENTS
  */
  
+.orchard #wikicontent li {
+  font-size: 14px;
+}
+
 .orchard #wikicontent div.note {
   color: #3b4f19;
   background-color: #acdb5b;
