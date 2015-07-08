@@ -459,8 +459,9 @@ section.cooperation div.partnerlogos span#orchard-collab {
     margin: 0;
 }
 
-#wikicontent p img {
+#wikicontent p.line* img {
     margin: 0;
+    padding: 1em;
 }
 
 /*=========================================================
