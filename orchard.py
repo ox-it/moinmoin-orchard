@@ -1211,6 +1211,29 @@ class Theme(ThemeBase):
 <!-- Font ================================================== -->
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,400italic,400,300,600,700,900|Varela|Arapey:400,400italic' rel="stylesheet" type='text/css' >
 
+<!-- Favicons ================================================== -->
+<link rel="apple-touch-icon" sizes="57x57" href="%(prefix)s/%(theme)s/img/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="%(prefix)s/%(theme)s/img/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="%(prefix)s/%(theme)s/img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="%(prefix)s/%(theme)s/img/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="%(prefix)s/%(theme)s/img/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="%(prefix)s/%(theme)s/img/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="%(prefix)s/%(theme)s/img/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="%(prefix)s/%(theme)s/img/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="%(prefix)s/%(theme)s/img/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="%(prefix)s/%(theme)s/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="%(prefix)s/%(theme)s/img/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="%(prefix)s/%(theme)s/img/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="%(prefix)s/%(theme)s/img/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="%(prefix)s/%(theme)s/img/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="%(prefix)s/%(theme)s/img/manifest.json">
+<link rel="mask-icon" href="%(prefix)s/%(theme)s/img/safari-pinned-tab.svg" color="#6b902e">
+<link rel="shortcut icon" href="%(prefix)s/%(theme)s/img/favicon.ico">
+<meta name="msapplication-TileColor" content="#2b5797">
+<meta name="msapplication-TileImage" content="%(prefix)s/%(theme)s/img/mstile-144x144.png">
+<meta name="msapplication-config" content="%(prefix)s/%(theme)s/img/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
 <!-- JS ================================================== -->
 <script src="%(prefix)s/%(theme)s/js/jquery.min.js" type="text/javascript"></script>
 <script src="%(prefix)s/%(theme)s/layerslider/js/greensock.js" type="text/javascript"></script>
