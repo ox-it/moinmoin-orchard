@@ -45,7 +45,30 @@ section#wikicontent div.container {
 /*
  * MOINMOIN ELEMENTS
  */
+
+/* .orchard #wikicontent h1:not(:first), */
+.orchard #wikicontent h2,
+.orchard #wikicontent h3,
+.orchard #wikicontent h4,
+.orchard #wikicontent h5 {
+    margin-top: 1em;
+}
  
+.orchard #wikicontent h2:before,
+.orchard #wikicontent h3:before,
+.orchard #wikicontent h4:before,
+.orchard #wikicontent h5:before {
+    display: block;
+    content: " ";
+    margin-top: -70px;
+    height: 70px;
+    visibility: hidden;
+}
+
+.orchard #wikicontent p {
+    margin-bottom: 0.3em;
+}
+
 .orchard #wikicontent li {
   font-size: 14px;
 }
@@ -882,7 +905,7 @@ div.codearea pre span.DiffSeparator {color: #228b22; font-weight: bold}
 
 #wikicontent pre {
   line-height: 1.5;
-  white-space: pre-line;
+  white-space: pre;
   border-radius: 4px;
   width: auto;
   font-size: 90%;
@@ -1310,4 +1333,17 @@ p.searchhint a {
 }
 .orchard #wikicontent div#WikiTipOfTheDay\2e RandomQuote {
   padding: 5px;
+}
+
+/*=========================================================
+MISC CSS FIXES
+===========================================================*/
+
+.orchard #wikicontent ul {
+    list-style: outside;
+    padding-left: 1em;
+}
+
+.orchard #wikicontent label, legend {
+    display: inline;
 }
